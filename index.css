@@ -1,0 +1,88 @@
+.custom-header {
+  background-color: #387fcf;
+  color: black;
+  padding: 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #cacdcf;
+  color: #343a40;
+}
+
+#hero {
+  background-color: #e3ebdc;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(2, 2, 2, 0.705);
+}
+
+#hero img {
+  border-radius: 10px;
+  max-height: 300px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  color: #247cd4;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+#hero .btn-primary {
+  background-color: #387fcf;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+#hero .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#cta {
+  background-color: #4986c4;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#cta h2 {
+  font-size: 2rem;
+}
+
+#cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#cta .btn-primary {
+  padding: 0.75rem 1rem;
+}
+
+#cta .btn-outline-primary {
+  border-color: white;
+  color: white;
+  padding: 0.75rem 1.5rem;
+}
+
+#cta .btn-outline-primary:hover {
+  background-color: white;
+  color: #2b73bb;
+}
+
+footer,
+.custom-footer {
+  background-color: #387fcf;
+  color: black;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+ 
+  
