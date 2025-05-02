@@ -1,0 +1,96 @@
+.custom-header {
+  background-color: #387fcf;
+  color: black;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #cacdcf;
+  color: #333;
+}
+
+header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header .nav-link {
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+  font-weight: bold;
+}
+
+form .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: bold;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #007bff;
+  color: white;
+}
+
+.accordion-body {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+footer {
+  background-color: #387fcf;
+  color: black;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  #contact-form {
+    margin-top: 20px;
+  }
+}
